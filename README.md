@@ -7,14 +7,9 @@ Since the dataset is small with nearly ~6000 datapoints the performance of the m
 
 To train the model, follow these steps:
 
-1. Download the model and tokenizer files from the following Google Drive links:
-   - [Saved Model Files](https://drive.google.com/drive/folders/1SwEmxDDY7VbTJeSkHS3Bs_r5QSUIp76J?usp=share_link)
-   - [Tokenizer Files](https://drive.google.com/drive/folders/18fFDQDoIlwwxJLgm1NCoolo1aqbZNDZt?usp=share_link)
-4. Copy the downloaded folders to the root directory of the "grammar-correction" directory, inside the "/models/" subdirectory.
-
 To run the training script, make sure you have installed the required dependencies:
 
-1. pip install -r requirements.txt
+1. **"pip install -r requirements.txt"**
 
 Then, execute the training script: **"python train.py --num_epochs=1"**
 
@@ -22,6 +17,11 @@ Then, execute the training script: **"python train.py --num_epochs=1"**
 Note: The `train.py` file has been edited to use CPU for testing on local systems without NVIDIA GPUs.
 
 ## Interacting with the Model
+
+1. Download the model and tokenizer files from the following Google Drive links:
+   - [Saved Model Files](https://drive.google.com/drive/folders/1SwEmxDDY7VbTJeSkHS3Bs_r5QSUIp76J?usp=share_link)
+   - [Tokenizer Files](https://drive.google.com/drive/folders/18fFDQDoIlwwxJLgm1NCoolo1aqbZNDZt?usp=share_link)
+4. Copy the downloaded folders to the models directory of the "grammar-correction" directory, inside the "/models/" subdirectory, so that you have models/gpt2-grammar-correction and models/gpt2-grammar-correction-tokenizer directories.
 
 To interact with the fine-tuned model, you can use a Docker container. Follow these steps:
 
