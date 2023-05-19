@@ -9,9 +9,9 @@ To train the model, follow these steps:
 
 To run the training script, make sure you have installed the required dependencies:
 
-1. **"pip install -r requirements.txt"**
+1. ``` pip install -r requirements.txt ```
 
-Then, execute the training script: **"python train.py --num_epochs=1"**
+Then, execute the training script: ``` python train.py --num_epochs=1 ```
 
 
 Note: The `train.py` file has been edited to use CPU for testing on local systems without NVIDIA GPUs.
@@ -25,8 +25,8 @@ Note: The `train.py` file has been edited to use CPU for testing on local system
 
 To interact with the fine-tuned model, you can use a Docker container. Follow these steps:
 
-1. Build the Docker image: **"docker build -t grammar ."** 
-2. Run the Docker container: **"docker run -it -p 80:5000 grammar"**
+1. Build the Docker image: ``` docker build -t grammar .```
+2. Run the Docker container: ``` docker run -it -p 80:5000 grammar ```
 
 
 3. Open your browser and visit [localhost:80](http://localhost:80) to connect to the Flask server hosting the fine-tuned model.
