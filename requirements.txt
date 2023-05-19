@@ -1,0 +1,6 @@
+#transformers>=2.19.2
+Flask==1.1.1
+#torch==2.0.0+cpu
+scikit-learn
+datasets
+numpy
