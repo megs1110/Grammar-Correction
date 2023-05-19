@@ -52,4 +52,4 @@ To enhance the training and evaluation of the model, consider the following step
 3. Use BLEU scores as an evaluation metric for the trained model.
 
 Feel free to explore these enhancements to improve the performance of the grammar correction model.
-![image](https://github.com/megs1110/Grammar-Correction/assets/97775044/d6c8c052-a327-4761-93d3-d1e62191fe94)
+
